@@ -1,0 +1,21 @@
+Luiz Fernando Cabral
+
+Classe: Item
+Atributos: tipo, nome, peso, dimensoes[], preçocarga
+Métodos: Altera_preço, Altera_dimensoes
+
+Classe: Veiculo
+Atributos: tipo, motorista, placa, capacidadepeso, capacidadecomprimento, potencia
+Métodos: posição, Altera_motorista, Altera_capacidade
+
+Classe: Cliente
+Atributos: nome, pagou, Item, entregue
+Métodos: Pagamento, Conclue_entrega
+
+Classe: Rota
+Atributos: cidades[], estrada, origem, destino, tempo_estimado, tipo
+Métodos: Altera_estrada&cidades
+
+Classe: Cria_Log.txt
+Atributos: Item, Veiculo, Cliente, Rota
+Métodos: cria_arquivo
