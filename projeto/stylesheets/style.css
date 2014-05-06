@@ -1,0 +1,112 @@
+body {
+    background-color: #000055;
+}
+
+.contorno {
+  background-color: #550000;
+  margin: 0 10% 0.5% 10%;
+  border:1px solid black;
+  border-radius:10px;
+}
+
+header {
+  font-family: 'Loved by the King', 'cursive';
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+footer{
+  font-family: 'Tahoma';
+  text-align: center;
+  margin-bottom:2%;
+  font-size: 1em;
+  color: #000000;
+}
+
+header h1 {
+  /* Default color format: RGB in hexa (RRGGBB); */
+  color: #6176AC;
+  font-size: 60px;
+}
+
+header h2 {
+  /* The RGBA format allows us to specify a transparency level */
+  color: rgba(10, 69, 103, 0.4);
+  font-size: 40px;
+}
+
+header p {
+  color: #000000;
+  font-size: 35px;
+}
+
+#main-content {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+#main-content i {
+  color: #03A2B8;
+  font-size: 340px;
+}
+
+.welcome {
+  color: rgba(223, 32, 78, 1);
+  font-family: 'Open Sans', 'sans-serif';
+  font-size: 25px;
+}
+
+.profilepic {
+  width:65%;
+  height:45%;
+  margin-left:7%;
+  margin-top:2%;
+  margin-bottom: 2%;
+  display:inline-block;
+  position:relative;
+}
+
+
+.botoesesq{
+  display:inline-block;
+  width:7%;
+  margin-left:10%;
+}
+
+.botaohome{
+  display:block;
+  text-align:center;
+  font-family: Futura, Tahoma, sans-serif;
+  color: #ffffff;
+  text-align:center;
+  background-color: #ffffff;
+  border-radius: 5px 5px;
+  margin:20% 0;
+  padding:10% 0;
+}
+
+.botaocentro{
+  text-align: center;
+  width:7%;
+  margin-left:45%
+}
+
+.botoesdir{
+  display:inline-block;
+  width:7%;
+  margin-right:7%;
+  margin-top: 5%;
+  position:absolute;
+}
+
+.botaogeral{
+  text-align:center;
+  border: 0 solid #000000;
+  font-family: Futura, Tahoma, sans-serif;
+  color: #ffffff;
+  margin-top:4%;
+  display:inline;
+  border-radius: 5px 5px;
+  background-color: #ffffff;
+  padding:1% 3%;
+}
